@@ -4,7 +4,7 @@ const olivarController = require('../app/api/controllers/olivar');
 
 router.get('/', olivarController.getAll);
 router.post('/', olivarController.create);
-router.get('/:movieId', olivarController.getById);
-router.put('/:movieId', olivarController.updateById);
-router.delete('/:movieId', olivarController.deleteById);
+router.get('/:olivarId', olivarController.getById);
+router.put('/:olivarId', olivarController.updateById);
+router.delete('/:olivarId', olivarController.deleteById);
 module.exports = router;
