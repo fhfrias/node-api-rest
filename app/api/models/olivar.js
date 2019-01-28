@@ -10,7 +10,7 @@ const OlivarSchema = new Schema({
  variedad: {
     type: String,
     enum: ['Ecologica','NoEcologica'],
-    default : 'Ecologica'
+    default : 'NoEcologica'
 },
  num_olivas: {
   type: Number,

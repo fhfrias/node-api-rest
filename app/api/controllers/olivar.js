@@ -12,7 +12,7 @@ module.exports = {
  },
 getAll: function(req, res, next) {
   let olivarList = [];
-olivarModel.find({}, function(err, olivar){
+olivarModel.find({}, function(err, olivares){
    if (err){
     next(err);
    } else{
