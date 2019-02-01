@@ -9,6 +9,7 @@ PARA ARRANCAR EL SERVICIO, HAY QUE EJECUTAR **npm start** EN EL DIRECTORIO RAÍZ
 ## Arquitectura
 
 | **TIPO** | **RUTA** | **DESCRIPCIÓN** |
+| ----- | -----| ------ |
 | GET | '/olivares' | Obtiene todos los olivares |
 | GET | '/olivares/idOlivares' | Obtiene el olivar a partir de un id (idOlivares) |
 | POST | '/olivares' | Añade un olivar |
